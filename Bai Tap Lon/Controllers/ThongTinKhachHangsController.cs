@@ -22,6 +22,7 @@ namespace Bai_Tap_Lon.Controllers
         }
 
         // GET: ThongTinKhachHangs/Details/5
+        [Authorize]
         public ActionResult Details(int? id)
         {
             if (id == null)
